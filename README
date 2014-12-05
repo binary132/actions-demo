@@ -1,10 +1,10 @@
-# action-demo
+# actions-demo
 
 ```bash
 juju action defined
 # ...
 
-juju action do demo/0 <action name>
+juju action do actions-demo/0 <action name>
 # ... <UUID>
 
 juju action fetch <UUID>
