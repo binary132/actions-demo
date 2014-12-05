@@ -1,0 +1,4 @@
+name: demo
+summary: A charm which demonstrates how to use actions.
+description: 
+  Use 'juju action defined demo' to see available actions.

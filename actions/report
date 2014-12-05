@@ -1,0 +1,3 @@
+#!/bin/bash
+
+action-set results.time=$(date) results.message="Hello world!" status="success"

@@ -1,0 +1,11 @@
+actions: 
+  report:
+    description: "Report back with the time"
+  run:
+    description: "Run some command"
+    params:
+      type: object
+      properties:
+        command:
+          type: string
+          description: "The command to run"

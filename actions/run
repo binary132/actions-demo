@@ -1,0 +1,5 @@
+#!/bin/bash
+
+status=`bash -e $@`
+
+action-set results=$status
