@@ -1,7 +1,15 @@
 # actions-demo
 
-Specifies two Actions: `run` and `report`.  `run` executes an arbitrary
-script given in a params file such as:
+To use this Charm, simply:
+
+```bash
+mkdir trusty
+git clone https://github.com/binary132/actions-demo
+juju deploy local:trusty/actions-demo
+```
+
+This Charm specifies two Actions: `run` and `report`.  `run` executes an
+arbitrary script given in a params file such as:
 
 ```yaml
 # params.yaml
