@@ -1,5 +1,15 @@
 #!/bin/bash
 
-status=`bash -e $@`
+torun=$(action-get command)
+returned=$(bash -c "$torun" &> results; echo $?)
 
-action-set results=$status
+action-set command-received="$torun"
+action-set output="$(cat results)"
+
+rm results
+
+if [ "$returned" -ne "0" ];
+  then action-fail "command exited with code $returned";
+fi
+
+action-set returned="$returned"

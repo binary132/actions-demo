@@ -1,3 +1,3 @@
 #!/bin/bash
 
-action-set results.time=$(date) results.message="Hello world!" status="success"
+action-set result-map.time-completed="$(date)" result-map.message="Hello world!" outcome="success"
