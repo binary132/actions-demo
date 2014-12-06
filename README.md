@@ -4,7 +4,7 @@ To use this Charm, simply:
 
 ```bash
 mkdir trusty
-git clone https://github.com/binary132/actions-demo
+git clone https://github.com/binary132/actions-demo trusty/actions-demo
 juju deploy local:trusty/actions-demo
 ```
 
