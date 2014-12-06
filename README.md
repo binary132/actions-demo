@@ -24,7 +24,7 @@ Two samples have been given as `run-sample-fail.yaml` and `run-sample-ok.yaml`.
 juju action defined
 # ...
 
-juju action do actions-demo/0 <action name>
+juju action do actions-demo/0 <action name> [--params run-sample-ok.yaml]
 # ... <UUID>
 
 juju action fetch <UUID>
